@@ -17,20 +17,109 @@
 }
 .header i {
     font-size: 150px;
-    color: #e15e6e;
+    color: #e1918e;
 } 
 .menu li a { 
     text-decoration: none;
-    color: #e15e6e;
+    color: #e1918e;
     padding: 7px;
     background-color:  #e0c4aea6;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 10px;
 }
 .menu li  :hover {
-
+    cursor: pointer;
+    transform: 1s;
+    background-color: #e1918e;
+    color: #c3e6d4;
 }
 .menu li {
+    margin-left: 1cqmax;
+}
+.menu {
+    display: flex;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: #e1918e;
+    text-align: center;
+    margin: apx auto;
+    padding: 5px;
+}
+.flex img {
+    max-width: 100%;
+    display: flex;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    margin: 0px auto;
+}
+.flex div {
+    margin: 10px;
+    flex: 1 1 200px;    
+}
+div p {
+    margin: 10px;
+    flex: 1 1 200px;
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 50px;
+}
+.texto {
+    background-color: #e0c4ae;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 80px;
+}
+.rodape {
+    background-color: #e15e6e;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.lista-rodape {
+    display: flex;
+    padding: 50px;
+    
+}
+.lista-rodape li {
+    margin: 20px;
+    display: flex;
+    
+}
+.lista-rodape li a {
+    text-decoration: none;
+    color: #f4f0e5;
+}
+.icon {
+    display: flex;
+    padding: 40px;
+    font-size: 20px;
+    color: #c3e6d4;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon i {
+    padding: 10px;
+    background-color: black;
+    margin-left: 30px;
+    border-radius: 10px;
 
 }
+.icon a i {
+    text-decoration: none;
+    color: #c3e6d4;
+    
+}
+
+
+
+
+
+
 
